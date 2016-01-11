@@ -1,0 +1,87 @@
+html, body {
+  height: 100%;
+}
+body {
+  overflow: hidden;
+}
+.controls {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.button {
+  box-sizing: border-box;
+  font-family: "fontello";
+  display: inline-block;
+  width: 12vh;
+  height: 12vh;
+  line-height: 12vh;
+  background: #101010;
+  border: solid .5vh #000000;
+  text-align: center;
+  font-size: 6vh;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.button[data-tapped=true] {
+  opacity: 1;
+}
+
+#to-left:before {
+  content: '\e800';
+}
+#to-right:before {
+  content: '\e805';
+}
+#rotate-left {
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -ms-filter: fliph; /*IE*/
+  filter: fliph; /*IE*/
+}
+#rotate-left:before {
+  content: '\e808';
+}
+#to-down:before {
+  content: '\e801';
+}
+#settings:before {
+  content: '\e804';
+}
+
+#panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 14px;
+}
+#panel>div {
+  padding: 10px;
+  background-color: #fff;
+  width: 80%;
+  max-width: 800px;
+}
+#panel table {
+  width: 100%;
+}
+#panel td:last-child {
+  width: 1px;
+  white-space: nowrap;
+  text-align: right;
+}
+#panel input[type=number] {
+  width: 60px;
+}
+#panel input[type=button] {
+  width: 70px;
+}

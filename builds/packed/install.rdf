@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+      <em:id>jid0-Wdwt6i8oO8iI7yhkanMnbft5y6U@jetpack</em:id>
+      <em:type>2</em:type>
+      <em:bootstrap>true</em:bootstrap>
+      <em:unpack>false</em:unpack>
+      <em:version>0.1.0</em:version>
+      <em:name>Play Tetris</em:name>
+      <em:description>Tetris is a tile-matching puzzle game.</em:description>
+      <em:creator>Jeremy Schomery</em:creator>
+
+      <em:targetApplication>
+        <Description>
+          <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+          <em:minVersion>29.0</em:minVersion>
+          <em:maxVersion>45.0</em:maxVersion>
+        </Description>
+      </em:targetApplication>
+      <em:targetApplication>
+        <Description>
+          <em:id>{aa3c5121-dab2-40e2-81ca-7ea25febc110}</em:id>
+          <em:minVersion>29.0</em:minVersion>
+          <em:maxVersion>45.0</em:maxVersion>
+        </Description>
+      </em:targetApplication>
+    </Description>
+</RDF>

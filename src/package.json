@@ -1,0 +1,17 @@
+{
+  "fullName": "Tetris",
+  "name": "itetris",
+  "description": "Tetris is a tile-matching puzzle game.",
+  "id": "jid0-Wdwt6i8oO8iI7yhkanMnbft5y6U@jetpack",
+  "license": "Mozilla Public License, version 2.0",
+  "version": "0.1.0",
+  "author": "Jeremy Schomery",
+  "lib": "lib",
+  "main": "./lib/firefox.js",
+  "url": "http://add0n.com/tetris.html",
+  "icon": "data/icons/32.png",
+  "icon64": "data/icons/64.png",
+  "permissions": {
+    "private-browsing": true
+  }
+}

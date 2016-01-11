@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Play Tetris</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/fontello.css">
+    <link rel="stylesheet" href="src/blockrain.css">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="assets/js/jquery-1.12.0.min.js"></script>
+    <script src="src/blockrain.jquery.libs.js"></script>
+    <script src="src/blockrain.jquery.src.js"></script>
+    <script src="src/blockrain.jquery.themes.js"></script>
+  </head>
+  <body>
+    <div class="game"></div>
+    <div class="controls">
+      <span id="to-left" class="button"></span>
+      <span id="to-down" class="button"></span>
+      <span id="to-right" class="button"></span>
+      <span id="settings" class="button"></span>
+      <span id="rotate-left" class="button"></span>
+    </div>
+    <div id="panel">
+      <div>
+        <table>
+          <tr>
+            <td>Window width (in pixel):<sup>*</sup></td>
+            <td><input id="width" type="number" min="500" max="1000"></td>
+          </tr>
+          <tr>
+            <td>Window height (in pixel):<sup>*</sup></td>
+            <td><input id="height" type="number" min="500" max="1000"></td>
+          </tr>
+          <tr>
+            <td>Open FAQ page:</td>
+            <td><input id="open-faq" type="button" value="Open"></td>
+          </tr>
+          <tr>
+            <td>Open bug reporter:</td>
+            <td><input id="open-bug" type="button" value="Open"></td>
+          </tr>
+        </table>
+        <hr>
+        *: Restart is required
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

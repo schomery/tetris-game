@@ -1,0 +1,27 @@
+{
+  "name": "Tetris",
+  "description": "Tetris is a tile-matching puzzle game.",
+  "author": "Jeremy Schomery",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "storage",
+    "notifications"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "19": "data/icons/19.png",
+      "38": "data/icons/38.png"
+    }
+  },
+  "background": {
+    "scripts": [
+      "lib/opera.js"
+    ]
+  },
+  "icons": {
+    "16": "data/icons/16.png",
+    "48": "data/icons/48.png",
+    "128": "data/icons/128.png"
+  }
+}

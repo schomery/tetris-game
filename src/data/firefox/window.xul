@@ -1,0 +1,12 @@
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window
+  title="Tetris"
+  windowtype="game:console"
+  width="400px" height="600px"
+  persist="width height screenX screenY sizemode"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  xmlns:html="http://www.w3.org/1999/xhtml"
+  xmlns:h="http://www.w3.org/1999/xhtml">
+
+<browser type="content" flex="1"/>
+</window>

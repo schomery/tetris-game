@@ -1,0 +1,32 @@
+{
+  "name": "Tetris",
+  "packageId": "com.add0n.games.tetris",
+  "description": "Tetris is a tile-matching puzzle game.",
+  "author": "Jeremy Schomery",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "storage",
+    "notifications",
+    "browser"
+  ],
+  "app": {
+    "background": {
+      "scripts": [
+        "lib/android.js"
+      ]
+    }
+  },
+  "icons": {
+    "16": "data/icons/16.png",
+    "19": "data/icons/19.png",
+    "32": "data/icons/32.png",
+    "38": "data/icons/38.png",
+    "48": "data/icons/48.png",
+    "64": "data/icons/64.png",
+    "72": "data/icons/72.png",
+    "128": "data/icons/128.png",
+    "256": "data/icons/256.png"
+  }
+}
+
